@@ -5,7 +5,7 @@ Function to run simple data analysis on data set housing.csv
 import total_column
 import data_read_in_function as dr
 
-def run_analysis():
+def run():
 
     file_path = '../data/housing.csv'
     data_frame = dr.data_read_in(file_path)
@@ -14,4 +14,4 @@ def run_analysis():
 
     return total_rooms
 
-run_analysis()
+run()
